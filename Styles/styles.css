@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-simple {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+/* manu bar */
+.menu-bar {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-bar span {
+    background: rgba(17, 17, 17, 1);
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 1440px;
+    margin: 0 auto; */
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.school{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
+    margin-right: 186px;
+}
+.home{
+    color: rgba(254, 163, 1, 1.00);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.about{
+    color: rgba(1, 172, 253, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.facilities{
+    color: rgba(5, 212, 223, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.admission{
+    color: rgba(93, 88, 239, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.button{
+    background-color: rgba(254, 163, 1, 1.00);
+    border-radius: 12px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 10px 60px;
+    margin-left: 186px;
+}
+ul>li>a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* banner part */
+.banner-content{
+    width: 640px;
+    align-items: center;
+    /* margin-left: 230px; */
+    margin-top: 122px;
+    margin-bottom: 122px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: rgba(17, 17, 17, 1.00);
+    margin-bottom: 24px;
+}
+.title-color1{
+    color: rgba(254, 163, 1, 1.00);
+}
+.title-color2{
+    color: rgba(1, 172, 253, 1.00);
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(17, 17, 17, 1.00);
+    margin-bottom: 24px;
+}
+.banner-button{
+    background-color: rgba(17, 17, 17, 1.00);
+    border-radius: 12px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 10px 47px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 340px;
+    gap: 65px; 
+}
+.banner-image{
+    width: 468px;
+    /* margin-right: 120px; */
+}
+.banner-image img{
+    width: 100%;
+}
+main{
+    background-image: url("../assets/bg.png");
+}
+/* curriculum section part */
+.curriculum{
+    display: flex;
+    gap: 28px;
+    width: 1160px;
+    margin: 0 auto;
+}
+.curriculum-part1{
+    background: linear-gradient(to bottom, #dff3ff 0%, #ffffff 30%, #ffffff 100%);
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.curriculum-img{
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+.curriculum-title{
+    text-align: center;
+    color: rgba(0, 0, 0, 1.00);
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.curriculum-headline{
+    color: rgba(32, 32, 32, 1.00);
+    font-weight: 700;
+    font-size: 1.53rem;
+    margin-bottom: 33px;
+}
+.curriculum-description{
+    color: rgba(128, 128, 128, 1.00);
+    font-weight: 600;
+    font-size: 0.94rem;
+    margin-bottom: 34px;
+    width: 300px;
+}
+.curriculum-button{
+    color: rgba(100, 200, 255, 1.00);
+    border: none;
+    background-color: transparent;
+    margin-bottom: 53px;
+}
+.curriculum-part2{
+    background: linear-gradient(to bottom, #FFF4DC 0%, #ffffff 30%, #ffffff 100%);
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.curriculum-button2{
+    color: rgba(240, 170, 0, 1.00);
+    border: none;
+    background-color: transparent;
+    margin-bottom: 53px;
+}
+.curriculum-part3{
+    box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom, #F2E8FF 0%, #ffffff 30%, #ffffff 100%);
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.curriculum-button3{
+    color: rgba(135, 0, 255, 1.00);
+    border: none;
+    background-color: transparent;
+    margin-bottom: 53px;
+}
+/* less than and greater than button */
+.smart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.lessthan-greater-button{
+    background-color: rgba(254, 163, 1, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    border-radius: 30px;
+    border: none;
+    padding: 17px 22px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Our Stories Part*/
+
+.stories-title{
+    color: rgba(0, 0, 0, 1.00);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 48px;
+    margin-top: 33px;
+    text-align: left;
+}
+.stories-description{
+    color: rgba(102, 102, 102, 1.00);
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: 48px;
+    margin-bottom: 35px;
+    width: 433px;
+}
+.stories-button{
+    background-color: rgba(60, 216, 232, 1.00);
+    border-radius: 48px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: -20px;
+    margin-left: 39px;
+    padding: 15px 18px;
+}
+.stories-content{
+    padding: 35px 38px;
+    text-align: left;
+    width: 433px;
+}
+
+.stories-secondary-button{
+    background-color: rgba(149, 178, 38, 1.00);
+    border-radius: 48px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: -20px;
+    margin-left: 39px;
+    padding: 15px 18px;
+}
+.stories-secondary-backup-button{
+    background-color: rgba(93, 88, 240, 1.00);
+    border-radius: 48px;
+    border: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-top: -20px;
+    margin-left: 39px;
+    padding: 15px 18px;
+}
+.our-stories {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .stories-headline {
+    font-weight: 700;
+    font-size: 2.87rem;
+    margin-bottom: 80px;
+    color: rgba(0, 0, 0, 1.00);
+  }
+
+  .stories-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 1160px;
+    margin: 0 auto;
+  }
+  .stories-next-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .des-des{
+      color: rgba(0, 0, 0, 1.00);
+      padding: 19px 38px;
+  }
+
+  .stories-card{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: auto;
+    overflow: hidden;
+    text-align: left;
+  }
+  .stories-others-card{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    width: 290px;
+
+  }
+  .stories-card img {
+    width: 100%;
+    height: auto;
+  }
+  .stories-others-card img {
+    width: 100%;
+    height: auto;
+  }
+  /* view all buttton*/
+  .view-all {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: #000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 312px;
+    font-weight: 700;
+    padding: 10px 61px;
+    font-size: 1.25rem;
+  }
+
+
+/* footer section */
+.footer {
+    background-color: rgba(1, 172, 253, 1.00);
+    padding: 123px 140px;
+  }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+.title1{
+    font-weight: 700;
+    font-size: 2.63rem;
+    color: #FFFFFF;
+  }
+.description1{
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 400px;
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+.footer-logo {
+    display: flex;
+    align-items: center;
+  } 
+.logo-icon{
+    width: 83px;
+    height: 82px;
+    margin-right: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+    background-color: #fff;
+    /* filter: brightness(90%); */
+}
+  .title2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-column ul li {
+    margin-bottom: 30px;
+  }
+  .footer-column ul li a {
+    color: rgba(255, 255, 255, 1.00);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  .title3{
+    font-weight: 700;
+    font-size: 1.625rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+  }
+
+/* Responsive Part */
+@media screen and (max-width: 576px) {
+
+    /* responsive navigation bar */
+    .navbar, .school{
+        display: none;
+    }
+    nav {
+        border-bottom: 1px solid rgba(254, 163, 1, 1.00);
+        gap: 290px;
+    }
+    .menu-bar {
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+    }
+    .nav-logo{
+        /* display: flex; */
+        margin-bottom: 10px;
+    }
+
+    /* .button {
+        margin: 0;
+    } */
+
+    /* Banner section */
+    /* responsive banner section */
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .banner-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .banner-content {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .banner-title {
+        font-size: 2rem;
+    }
+    .banner-description {
+        font-size: 1rem;
+    }
+
+    /* Curriculum section */
+    /* responsive curriculum section */
+    .curriculum {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        /* margin: 0px; */
+    }
+
+    .curriculum-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .curriculum-description {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+    .smart-button {
+        display: none;
+    }
+
+    /* Stories section */
+    /* .stories-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+    }
+    .stories-card{
+        display: none;
+    }
+   .stories-others-card {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .stories-next-part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .des-des {
+        width: auto;
+        font-size: 0.85rem;
+    }
+    .stories-secondary-button, .stories-secondary-backup-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    } */
+    /* responsive stories section */
+    .stories-container {
+        flex-direction: column;
+        gap: 15px;
+        width: auto;
+    }
+    .stories-card {
+        display: none; 
+    }
+    .stories-others-card {
+        width: 100%;
+    }
+    .des-des {
+        padding: 8px 15px;
+        font-size: 0.67rem;
+        margin-left: 5px;
+    }
+    .stories-secondary-backup-button{
+        background-color: rgba(93, 88, 240, 1.00);
+        border-radius: 48px;
+        border: none;
+        color: rgba(255, 255, 255, 1.00);
+        font-weight: 500;
+        font-size: 0.95rem;
+        margin-top: -20px;
+        margin-left: 39px;
+        padding: 15px 18px;
+    }
+
+    .stories-secondary-button, .stories-secondary-backup-button {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+        margin-left: 12px;
+    }
+
+
+    .view-all {
+        margin: 20px auto;
+    }
+
+    /* Footer adjustments */
+    /* responsive footer section */
+    .footer {
+        padding: 40px 10px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title1 {
+        font-size: 2.6rem; 
+        text-align: left;
+    }
+
+    .description1 {
+        font-size: 1.1rem;
+        text-align: left; 
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .footer-column {
+        margin-bottom: 15px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .footer-column ul li a {
+        font-size: 1rem;
+    }
+
+}
+
+
+~
